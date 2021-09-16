@@ -1,66 +1,62 @@
-body { /*sets all text on page to be centered, font-family to remain the same, and carries background color throughout*/
-  text-align: center;
-  background-color: #deb887;
-  font-family: Futura;
+<!DOCTYPE html> 
+<html>
   
-}
-
-header { /*margin to offer more separation in case I want to add a navigation, more pages, but carry this section throughout site*/
-  font-size:30px;
-  margin-bottom:50px;
-  }
-
-h1, h2, h3, h4, h5, h6 { /*merging classes to assign all headers with their respective browser font sizing, and carry the visual theme throughout*/
-  text-transform: uppercase;
-  color: #fff;
-  margin-bottom:0px;
-}
-
-div article ol { /*also keeping bullets within list*/
-  list-style-position: inside;
-  padding-left:0px;
-}
-
-div ul { /*keeping bullets within the box versus aligned with content box*/
-  list-style-type: circle;
-  list-style-position:inside;
-  padding-left:0px;
-}
-
-div.article { /*trying to keep width of article box more closely wrapped to text within a certain minimum. Would look terrible on mobile*/
-  border: 5px solid #fff;
-  padding:0px;
-  margin:25px 250px;
-  min-width: 50%; /*added to keep article boxes within a certain width and avoid margin from collapsing within itself. keeps article boxes to certain minimum.*/
-}
-
-div.article a:link{ /*color for new link*/
-  color: #F5F5F5;
-}
-
-div.article a:visited{ /*color for cached link*/
-  color: #b8860b;
-}
-
-div.article a:hover{ /*color for mouse hover*/
-  color: #DAA520;
-}
-
-div.article a:active{ /*color for clicked link*/
-  color: #FAF0E6;
-  cursor: pointer; /*technically, only need it here since this superposes?*/
-}
-
-.border-box { /*trying to answer for div article margin and padding on various browsers, display sizes, and devices. (just for now, could be added as part of other sections later, like intro being separate eventually if there were more pages) */
-  box-sizing: border-box;
-}
-
-div article img { /*trying to keep caption very close to picture*/
-  padding-bottom:-15px;
-  margin-bottom:-15px;
-}
-
-footer, h6 { /*footer to eventually change nav links to be horizontal*/
-  font-family:Futura;
-  margin-bottom:-10px;
-}
+  <head>
+    <meta charset ="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Katherine Gonzalez</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css"/> <!--adding normalize.css stylesheet as is the popular standard-->
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  
+  <body>
+    <header>
+      <div class="header"> <!--would keep this header through site if there were more pages-->
+        <h1>Katherine Gonzalez</h1>
+      </div>
+    </header>
+    
+    <main>
+      <div class="article border-box"> <!--keeping box-sizing as standard here too-->
+        <article id="Intro"> <!--Intro-->
+          <h2>Hello, welcome to my world</h2> 
+          <p>Thinkful Software Engineering student based out of Austin, TX</p>
+        </article>
+      </div>
+      <div class="article border-box"> <!--repeating box-sizing for now since all content is within article containers-->
+        <article id="About Me"> <!--About Me, would add sections here if writing something like a timeline or a full synopsis of professional and personal life-->
+          <h3>About Me</h3>
+          <p>I am passionate about being responsible with code, software, and with one another. Collaboration has always been the spirit of technology and primary contributor to humankind's constant advancement. I look forward to making my own mark alonsinde other brilliant tech professionals.</p>
+          <p>Outside of professional pursuits, I try to take in everything Austin has to offer from the many sprawling city and state parks to the very lively music scene. The list of activities is endless but, above all, I enjoy being active and spending time with Linus, my regal 90-lb puppy.</p>
+          <img src="images/Linus.JPG" width="250px" alt="Linus at the park">
+          <p><small>Linus at Zilker Park, Austin, TX</small></p> <!--small to create distinct caption-->
+        </article>
+      </div>
+      <div class="article border-box"> 
+        <article id="Contact"> <!--Contact--> 
+          <h3>Contact</h3>
+          <p>Send me a note! <small>(or digital treats for the pup)</small>:</p> <!--made small rather than assigning a size to keep distinct size ratio vs all others-->
+          <ul class="contact-list">
+            <li><a href="https://github.com/katherine-gonzalez" alt="GitHub" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/katherine-gonzalez-a441191b9/" alt="LinkedIn" target="_blank">LinkedIn</a></li>
+            <li><a href="mailto:kxg003@icloud.com" alt="(Opens in default mail app)">Email</a></li>
+          </ul>
+        </article>
+      </div>
+    </main>
+  
+  <footer>
+    <div>
+      <h6>Katherine Gonzalez</h6>
+      <nav>
+        <ol class="footer-nav"> 
+         <small><li><a href="https://www.thinkful.com/" alt="Thinkful" target="_blank">Thinkful</a></li>
+         <li><a href="#Contact" alt="Contact List">Contact</a></li>
+         </small>
+        </ol>
+      </nav>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  </body>
+</html>
