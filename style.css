@@ -2,13 +2,12 @@ body { /*sets all text on page to be centered, font-family to remain the same, a
   text-align: center;
   background-color: #deb887;
   font-family: Futura;
-  
 }
 
 header { /*margin to offer more separation in case I want to add a navigation, more pages, but carry this section throughout site*/
   font-size:30px;
   margin-bottom:50px;
-  }
+}
 
 h1, h2, h3, h4, h5, h6 { /*merging classes to assign all headers with their respective browser font sizing, and carry the visual theme throughout*/
   text-transform: uppercase;
@@ -16,9 +15,8 @@ h1, h2, h3, h4, h5, h6 { /*merging classes to assign all headers with their resp
   margin-bottom:0px;
 }
 
-hr{
+hr {
   border-top: 5px solid #fff;
-  text-align:center;
 }
 
 
