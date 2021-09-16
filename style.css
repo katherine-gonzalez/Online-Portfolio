@@ -1,18 +1,17 @@
-body {
+body { /*sets all text on page to be centered, font-family to remain the same, and carries background color throughout*/
   text-align: center;
   background-color: #deb887;
   font-family: Futura;
+  
 }
 
 header { /*margin to offer more separation in case I want to add a navigation, more pages, but carry this section throughout site*/
   font-size:30px;
-  font-family:Futura;
   margin-bottom:50px;
-}
+  }
 
 h1, h2, h3, h4, h5, h6 { /*merging classes to assign all headers with their respective browser font sizing, and carry the visual theme throughout*/
   text-transform: uppercase;
-  font-family: Futura;
   color: #fff;
   margin-bottom:0px;
 }
@@ -23,47 +22,45 @@ div ul { /*keeping bullets within the box versus aligned with content box*/
   padding-left:0px;
 }
 
-div.article { /*trying to keep left-right box more closely wrapped to text. Would look terrible on mobile*/
+div ol { /*also keeping bullets within list*/
+  list-style-position: inside;
+  padding-left:0px;
+}
+
+div.article { /*trying to keep width of article box more closely wrapped to text within a certain minimum. Would look terrible on mobile*/
   border: 5px solid #fff;
   padding:0px;
   margin:25px 250px;
+  min-width: 50%; /*added to keep article boxes within a certain width and avoid margin from collapsing within itself. keeps article boxes to certain minimum.*/
 }
 
-div.article a:link{
+div.article a:link{ /*color for new link*/
   color: #F5F5F5;
 }
 
-div.article a:visited{
+div.article a:visited{ /*color for cached link*/
   color: #b8860b;
 }
 
-div.article a:hover{
+div.article a:hover{ /*color for mouse hover*/
   color: #DAA520;
 }
 
-div.article a:active{
+div.article a:active{ /*color for clicked link*/
   color: #FAF0E6;
   cursor: pointer; /*technically, only need it here since this superposes?*/
 }
 
-
-/*div.header {
-  border: 5px solid #fff;
-  padding-left:50px;
-  padding-right:50px;
-}
-
-div.footer {
-  border: 5px solid #fff;
-  padding: -50%;
-  margin:50px 25px 0px 25px;
-}*/
-
-.border-box { /*trying to answer for div article margin and padding for mobile, smaller devices, and windows. */
+.border-box { /*trying to answer for div article margin and padding on various browsers, display sizes, and devices. (just for now, could be added as part of other sections later, like intro being separate eventually if there were more pages) */
   box-sizing: border-box;
 }
 
 div article img { /*trying to keep caption very close to picture*/
   padding-bottom:-15px;
   margin-bottom:-15px;
+}
+
+footer, h6 { /*footer to eventually change nav links to be horizontal*/
+  font-family:Futura;
+  margin-bottom:-10px;
 }
