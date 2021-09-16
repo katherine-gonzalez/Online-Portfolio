@@ -35,19 +35,19 @@ div.article { /*trying to keep width of article box more closely wrapped to text
   min-width: 50%; /*added to keep article boxes within a certain width and avoid margin from collapsing within itself. keeps article boxes to certain minimum.*/
 }
 
-div.article a:link{ /*color for new link*/
+a:link{ /*color for new link*/
   color: #F5F5F5;
 }
 
-div.article a:visited{ /*color for cached link*/
+a:visited{ /*color for cached link*/
   color: #b8860b;
 }
 
-div.article a:hover{ /*color for mouse hover*/
+a:hover{ /*color for mouse hover*/
   color: #DAA520;
 }
 
-div.article a:active{ /*color for clicked link*/
+a:active{ /*color for clicked link*/
   color: #FAF0E6;
   cursor: pointer; /*technically, only need it here since this superposes?*/
 }
