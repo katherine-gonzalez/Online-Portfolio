@@ -23,7 +23,7 @@ div ul {
   padding-left:0px;
 }
 
-div.article {
+div.article { /*trying to keep left-right more closely wrapped to text. Would look terrible on mobile*/
   border: 5px solid #fff;
   padding:0px;
   margin:25px 250px;
@@ -63,7 +63,7 @@ div.footer {
   box-sizing: border-box;
 }
 
-div article img {
+div article img { /*trying to keep caption very close to picture*/
   padding-bottom:-15px;
   margin-bottom:-15px;
 }
