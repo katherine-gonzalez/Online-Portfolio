@@ -9,7 +9,7 @@ header { /*margin to offer more separation in case I want to add a navigation, m
   margin-bottom:50px;
 }
 
-hr.under-header {
+hr.under-header { /*style just the line underneath the header content and still offer the separation between the header and the entire page content*/
   border: 5px solid #fff;
 }
 
