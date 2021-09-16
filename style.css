@@ -63,4 +63,5 @@ footer, h6 { /*footer to eventually change nav links to be horizontal*/
 footer nav { /*also keeping bullets within list for navigation in footer since header navigation would have unique style, using a nested style to target this element within the container*/
   list-style-position: inside;
   padding-left:0px;
+  text-align:center;
 }
