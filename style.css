@@ -22,11 +22,6 @@ h1, h2, h3, h4, h5, h6 { /*merging classes to assign all headers with their resp
   padding-left:0px;
 }
 
-.footer-nav { /*also keeping bullets within list for navigation in footer since header navigation would have unique style*/
-  list-style-position: inside;
-  padding-left:0px;
-}
-
 div.article { /*trying to keep width of article box more closely wrapped to text within a certain minimum. Would look terrible on mobile*/
   border: 5px solid #fff;
   padding:0px;
@@ -63,4 +58,9 @@ div article img { /*trying to keep caption very close to picture*/
 footer, h6 { /*footer to eventually change nav links to be horizontal*/
   font-family:Futura;
   margin-bottom:-10px;
+}
+
+footer nav { /*also keeping bullets within list for navigation in footer since header navigation would have unique style*/
+  list-style-position: inside;
+  padding-left:auto;
 }
