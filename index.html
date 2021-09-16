@@ -1,53 +1,60 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
   
   <head>
     <meta charset ="utf-8">
-    <meta name="viewport" content="width-device-width">
+    <meta name="viewport" content="width=device-width">
     <title>Katherine Gonzalez</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css"/> <!--adding normalize.css stylesheet as is the popular standard-->
     <link href="style.css" rel="stylesheet" type="text/css"/>
   </head>
   
   <body>
     <header>
-      <div class="header">
+      <div class="header"> <!--would keep this header through site if there were more pages-->
         <h1>Katherine Gonzalez</h1>
-        <!--<h3>Software Engineer</h3> -->
       </div>
     </header>
     
     <main>
-      <div class="article border-box">
-        <article> <!--Intro-->
+      <div class="article border-box"> <!--keeping box-sizing as standard here too-->
+        <article id="Intro"> <!--Intro-->
           <h2>Hello, welcome to my world</h2> 
           <p>Thinkful Software Engineering student based out of Austin, TX</p>
         </article>
       </div>
-      <div class="article border-box">
-        <article> <!--About Me-->
+      <div class="article border-box"> <!--repeating box-sizing for now since all content is within article containers-->
+        <article id="About Me"> <!--About Me, would add sections here if writing something like a timeline or a full synopsis of professional and personal life-->
           <h3>About Me</h3>
           <p>I am passionate about being responsible with code, software, and with one another. Collaboration has always been the spirit of technology and primary contributor to humankind's constant advancement. I look forward to making my own mark alonsinde other brilliant tech professionals.</p>
-          <p>Outside of professional pursuits, I try to take in everything Austin has to offer from the many sprawling city and state parks to the very lively music scene. The list of activities is endless but, above all, I enjoy being active and spending time with my 90-lb puppy.</p>
+          <p>Outside of professional pursuits, I try to take in everything Austin has to offer from the many sprawling city and state parks to the very lively music scene. The list of activities is endless but, above all, I enjoy being active and spending time with Linus, my regal 90-lb puppy.</p>
           <img src="images/Linus.JPG" width="250px" alt="Linus at the park">
-          <p><small>Sir Linus at Zilker Park, Austin, TX</small></p>
+          <p><small>Linus at Zilker Park, Austin, TX</small></p> <!--small to create distinct caption-->
         </article>
       </div>
-      <div class="article border-box">
-        <article> <!--Contact-->
+      <div class="article border-box"> 
+        <article id="Contact"> <!--Contact--> 
           <h3>Contact</h3>
-          <p>Send me a note! <small>(or digital treats for the pup)</small>:</p>
-            <ul>
-              <li><a href="https://github.com/katherine-gonzalez" alt="GitHub" target="_blank">GitHub</a></li>
-              <li><a href="https://www.linkedin.com/in/katherine-gonzalez-a441191b9/" alt="LinkedIn" target="_blank">LinkedIn</a></li>
-              <li><a href="mailto:kxg003@icloud.com" alt="(Opens in default mail app)">Email</a></li>
-            </ul>
+          <p>Send me a note! <small>(or digital treats for the pup)</small>:</p> <!--made small rather than assigning a size to keep distinct size ratio vs all others-->
+          <ol>
+            <li><a href="https://github.com/katherine-gonzalez" alt="GitHub" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/katherine-gonzalez-a441191b9/" alt="LinkedIn" target="_blank">LinkedIn</a></li>
+            <li><a href="mailto:kxg003@icloud.com" alt="(Opens in default mail app)">Email</a></li>
+          </ol>
         </article>
       </div>
     </main>
   
   <footer>
-    <div class="footer">
+    <div>
       <h6>Katherine Gonzalez</h6>
+      <nav>
+        <ul> 
+         <small><li><a href="https://www.thinkful.com/" alt="Thinkful" target="_blank">Thinkful</a></li>
+         <li><a href="#Contact" alt="Contact List">Contact</a></li>
+         </small>
+        </ul>
+      </nav>
     </div>
   </footer>
   <script src="script.js"></script>
