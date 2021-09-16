@@ -43,7 +43,9 @@ div.article a:hover{
 
 div.article a:active{
   color: #FAF0E6;
+  cursor: pointer; /*technically, only need it here since this superposes?*/
 }
+
 
 /*div.header {
   border: 5px solid #fff;
