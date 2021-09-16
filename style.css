@@ -16,14 +16,14 @@ h1, h2, h3, h4, h5, h6 { /*merging classes to assign all headers with their resp
   margin-bottom:0px;
 }
 
-div ul { /*keeping bullets within the box versus aligned with content box*/
-  list-style-type: circle;
-  list-style-position:inside;
+div article ol { /*also keeping bullets within list*/
+  list-style-position: inside;
   padding-left:0px;
 }
 
-div ol { /*also keeping bullets within list*/
-  list-style-position: inside;
+div ul { /*keeping bullets within the box versus aligned with content box*/
+  list-style-type: circle;
+  list-style-position:inside;
   padding-left:0px;
 }
 
