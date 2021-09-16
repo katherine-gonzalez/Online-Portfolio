@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: burlywood;
+  background-color: #deb887;
   font-family: Futura;
 }
 
@@ -30,19 +30,19 @@ div.article {
 }
 
 div.article a:link{
-  color: whitesmoke;
+  color: #F5F5F5;
 }
 
 div.article a:visited{
-  color: darkgoldenrod;
+  color: #b8860b;
 }
 
 div.article a:hover{
-  color: goldenrod;
+  color: #DAA520;
 }
 
 div.article a:active{
-  color: linen;
+  color: #FAF0E6;
 }
 
 /*div.header {
