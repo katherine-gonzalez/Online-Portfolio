@@ -19,22 +19,6 @@ h1, h2, h3, h4, h5, h6 { /*merging classes to assign all headers with their resp
   margin-bottom:0px;
 }
 
-
-
-
-.contact-list { /*keeping bullets within the box for contact links versus aligned with content box*/
-  list-style-type: circle;
-  list-style-position:inside;
-  padding-left:0px;
-}
-
-div.article { /*trying to keep width of article box more closely wrapped to text within a certain minimum. Would look terrible on mobile*/
-  border: 5px solid #fff;
-  padding:0px;
-  margin:25px 250px;
-  min-width: 50%; /*added to keep article boxes within a certain width and avoid margin from collapsing within itself. keeps article boxes to certain minimum.*/
-}
-
 a:link{ /*color for new link*/
   color: #F5F5F5;
 }
@@ -50,6 +34,19 @@ a:hover{ /*color for mouse hover*/
 a:active{ /*color for clicked link*/
   color: #FAF0E6;
   cursor: pointer; /*technically, only need it here since this superposes?*/
+}
+
+.contact-list { /*keeping bullets within the box for contact links versus aligned with content box*/
+  list-style-type: circle;
+  list-style-position:inside;
+  padding-left:0px;
+}
+
+div.article { /*trying to keep width of article box more closely wrapped to text within a certain minimum. Would look terrible on mobile*/
+  border: 5px solid #fff;
+  padding:0px;
+  margin:25px 250px;
+  min-width: 50%; /*added to keep article boxes within a certain width and avoid margin from collapsing within itself. keeps article boxes to certain minimum.*/
 }
 
 .border-box { /*trying to answer for div article margin and padding on various browsers, display sizes, and devices. (just for now, could be added as part of other sections later, like intro being separate eventually if there were more pages) */
