@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-family: Futura;
   color: #fff;
+  margin-bottom:0px;
 }
 
 div ul {
@@ -26,6 +27,22 @@ div.article {
   border: 5px solid #fff;
   padding:0px;
   margin:25px 250px;
+}
+
+div.article a:link{
+  color: whitesmoke;
+}
+
+div.article a:visited{
+  color: darkgoldenrod;
+}
+
+div.article a:hover{
+  color: goldenrod;
+}
+
+div.article a:active{
+  color: linen;
 }
 
 /*div.header {
