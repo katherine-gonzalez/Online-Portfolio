@@ -16,6 +16,14 @@ h1, h2, h3, h4, h5, h6 { /*merging classes to assign all headers with their resp
   margin-bottom:0px;
 }
 
+hr{
+  border-top: 1px solid white;
+  text-align:center;
+  padding:0px;
+  min-width: 500px;
+  }
+
+
 .contact-list { /*keeping bullets within the box for contact links versus aligned with content box*/
   list-style-type: circle;
   list-style-position:inside;
@@ -55,12 +63,13 @@ div article img { /*trying to keep caption very close to picture*/
   margin-bottom:-15px;
 }
 
-footer, h6 { /*footer to eventually change nav links to be horizontal*/
+footer, h6 { /*footer to eventually change nav links to be horizontal. margins and content separate for more dynamic css to correct*/
   font-family:Futura;
   margin-bottom:-10px;
+  
 }
 
-footer nav { /*also keeping bullets within list for navigation in footer since header navigation would have unique style, using a nested style to target this element within the container*/
+footer div nav { /*also keeping bullets within list for navigation in footer since header navigation would have unique style, using a nested style to target this element within the container*/
   list-style-position: inside;
   padding-left:0px;
   text-align:center;
