@@ -20,11 +20,11 @@ h1, h2, h3, h4, h5, h6 { /*merging classes to assign all headers with their resp
 }
 
 a:link{ /*color for new link*/
-  color: #E0DDCF;
+  color: #053225;
 }
 
 a:visited{ /*color for cached link*/
-  color: #053225;
+  color: #3D2C2E;
 }
 
 a:hover{ /*color for mouse hover*/
