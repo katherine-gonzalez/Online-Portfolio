@@ -10,7 +10,7 @@ header { /*margin to offer more separation in case I want to add a navigation, m
 }
 
 hr.under-header {
-  border-top: 5px solid #fff;
+  border: 5px solid #fff;
 }
 
 h1, h2, h3, h4, h5, h6 { /*merging classes to assign all headers with their respective browser font sizing, and carry the visual theme throughout*/
