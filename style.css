@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 { /*merging classes to assign all headers with their resp
 }
 
 a:link{ /*color for new link*/
-  color: #45050c;
+  color: #E0DDCF;
 }
 
 a:visited{ /*color for cached link*/
@@ -32,7 +32,7 @@ a:hover{ /*color for mouse hover*/
 }
 
 a:active{ /*color for clicked link*/
-  color: #D5AC4E;
+  color: #E0DDCF;
   cursor: pointer; /*technically, only need it here since this superposes?*/
 }
 
