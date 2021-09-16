@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 { /*merging classes to assign all headers with their resp
 }
 
 a:link{ /*color for new link*/
-  color: #F1BF98;
+  color: #45050c;
 }
 
 a:visited{ /*color for cached link*/
@@ -43,7 +43,7 @@ a:active{ /*color for clicked link*/
 }
 
 div.article { /*trying to keep width of article box more closely wrapped to text within a certain minimum. Would look terrible on mobile*/
-  border: 5px solid #fff;
+  border: 5px solid #45050c;
   padding:0px;
   margin:25px 250px;
   min-width: 50%; /*added to keep article boxes within a certain width and avoid margin from collapsing within itself. keeps article boxes to certain minimum.*/
