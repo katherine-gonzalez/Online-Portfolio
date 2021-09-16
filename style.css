@@ -9,15 +9,17 @@ header { /*margin to offer more separation in case I want to add a navigation, m
   margin-bottom:50px;
 }
 
+hr.under-header {
+  border-top: 5px solid #fff;
+}
+
 h1, h2, h3, h4, h5, h6 { /*merging classes to assign all headers with their respective browser font sizing, and carry the visual theme throughout*/
   text-transform: uppercase;
   color: #fff;
   margin-bottom:0px;
 }
 
-hr {
-  border-top: 5px solid #fff;
-}
+
 
 
 .contact-list { /*keeping bullets within the box for contact links versus aligned with content box*/
