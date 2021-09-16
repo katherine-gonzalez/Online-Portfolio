@@ -4,26 +4,26 @@ body {
   font-family: Futura;
 }
 
-header {
+header { /*margin to offer more separation in case I want to add a navigation, more pages, but carry this section throughout site*/
   font-size:30px;
   font-family:Futura;
   margin-bottom:50px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 { /*merging classes to assign all headers with their respective browser font sizing, and carry the visual theme throughout*/
   text-transform: uppercase;
   font-family: Futura;
   color: #fff;
   margin-bottom:0px;
 }
 
-div ul {
+div ul { /*keeping bullets within the box versus aligned with content box*/
   list-style-type: circle;
   list-style-position:inside;
   padding-left:0px;
 }
 
-div.article { /*trying to keep left-right more closely wrapped to text. Would look terrible on mobile*/
+div.article { /*trying to keep left-right box more closely wrapped to text. Would look terrible on mobile*/
   border: 5px solid #fff;
   padding:0px;
   margin:25px 250px;
@@ -59,7 +59,7 @@ div.footer {
   margin:50px 25px 0px 25px;
 }*/
 
-.border-box {
+.border-box { /*trying to answer for div article margin and padding for mobile, smaller devices, and windows. */
   box-sizing: border-box;
 }
 
