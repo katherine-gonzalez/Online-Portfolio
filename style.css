@@ -47,6 +47,7 @@ div.article { /*trying to keep width of article box more closely wrapped to text
   padding:0px;
   margin:25px 250px;
   min-width: 50%; /*added to keep article boxes within a certain width and avoid margin from collapsing within itself. keeps article boxes to certain minimum.*/
+  height:auto;
 }
 
 .border-box { /*trying to answer for div article margin and padding on various browsers, display sizes, and devices. (just for now, could be added as part of other sections later, like intro being separate eventually if there were more pages) */
@@ -58,14 +59,15 @@ div article img { /*trying to keep caption very close to picture*/
   margin-bottom:-15px;
 }
 
-footer, h6 { /*footer to eventually change nav links to be horizontal. margins and content separate for more dynamic css to correct*/
+footer { /*footer to eventually change nav links to be horizontal. margins and content separate for more dynamic css to correct*/
   font-family:Futura;
   margin-bottom:-10px;
-  
+  font-size:14px;
 }
 
 footer div nav { /*also keeping bullets within list for navigation in footer since header navigation would have unique style, using a nested style to target this element within the container*/
   list-style-position: inside;
   padding-left:0px;
   text-align:center;
+  height:auto;
 }
