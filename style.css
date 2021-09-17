@@ -59,10 +59,9 @@ div article img { /*trying to keep caption very close to picture*/
   margin-bottom:-15px;
 }
 
-footer { /*footer to eventually change nav links to be horizontal. margins and content separate for more dynamic css to correct*/
+footer, h6 { /*footer to eventually change nav links to be horizontal. margins and content separate for more dynamic css to correct*/
   font-family:Futura;
   margin-bottom:-10px;
-  font-size:14px;
 }
 
 footer div nav { /*also keeping bullets within list for navigation in footer since header navigation would have unique style, using a nested style to target this element within the container*/
@@ -70,4 +69,5 @@ footer div nav { /*also keeping bullets within list for navigation in footer sin
   padding-left:0px;
   text-align:center;
   height:auto;
+  font-size:12px;
 }
